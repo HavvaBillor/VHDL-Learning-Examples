@@ -1,4 +1,4 @@
--- a) STD_LOGIC_VECTOR
+-- a) STD_LOGIC_VECTOR --------------------------------------------------------------------
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.all ;
@@ -11,7 +11,7 @@ use IEEE.STD_LOGIC_1164.all ;
 			);
 	end fourbit_circuit;
 
-	-- b) BIT_VECTOR
+-- b) BIT_VECTOR ---------------------------------------------------------------------------
 
 	entity fourbit_circuit is
 		port( inp1: in bit_vector(3 downto 0);
@@ -21,7 +21,7 @@ use IEEE.STD_LOGIC_1164.all ;
 			);
 	end fourbit_circuit;
 
-	-- c) INTEGER
+-- c) INTEGER ------------------------------------------------------------------------------
 
 	entity fourbit_circuit is
 		port( inp1: in integer range -8 to 7;
@@ -31,7 +31,7 @@ use IEEE.STD_LOGIC_1164.all ;
 			);
 	end fourbit_circuit;
 
-	-- d) NATURAL
+-- d) NATURAL -------------------------------------------------------------------------------
 
 	entity fourbit_circuit is
 		port( inp1: in natural range 0 to 15;
@@ -41,7 +41,7 @@ use IEEE.STD_LOGIC_1164.all ;
 			);
 	end fourbit_circuit;
 
-	-- e) POSITIVE
+-- e) POSITIVE ------------------------------------------------------------------------------
 
 	entity fourbit_circuit is
 		port( inp1: in positive range 1 to 15;
@@ -51,7 +51,7 @@ use IEEE.STD_LOGIC_1164.all ;
 			);
 	end fourbit_circuit;
 
--- f) UNSIGNED
+-- f) UNSIGNED -----------------------------------------------------------------------------
 
 library IEEE;
 use IEEE.NUMERIC_STD.ALL ;
@@ -64,7 +64,7 @@ use IEEE.NUMERIC_STD.ALL ;
 			);
 	end fourbit_circuit;
 
-	-- g) SIGNED
+-- g) SIGNED -------------------------------------------------------------------------------
 
 library IEEE;
 use IEEE.NUMERIC_STD.ALL ;
