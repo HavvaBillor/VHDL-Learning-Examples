@@ -4,7 +4,7 @@ use ieee.NUMERIC_STD.all;
 
 entity full_adder is 
 	port(
-		a,b,c_in: in std_logic;
+		a,b,c: in std_logic;
 		sum:out std_logic;
 		carry: out std_logic);
 end entity;
